@@ -1,17 +1,16 @@
 package com.xml.controller;
 
-import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+import org.springframework.web.servlet.ModelAndView;
+import org.springframework.web.servlet.mvc.Controller;
 
-@Controller
-@RequestMapping("/")
-public class HomeController {
-
-  @GetMapping
-  public String home(Model model) {
-    model.addAttribute("username", "dickson anyaele");
-    return "index";
-  }
+public class HomeController implements Controller {
+    @Override
+    public ModelAndView handleRequest(HttpServletRequest request, 
+                                      HttpServletResponse response) throws Exception {
+        ModelAndView modelAndView = new ModelAndView("index");
+        modelAndView.addObject("username", "dickson anyaele");
+        return modelAndView;
+    }
 }

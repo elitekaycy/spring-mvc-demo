@@ -1,1 +1,3 @@
+com/xml/controller/InterceptController.class
+com/xml/interceptor/TestInterceptor.class
 com/xml/controller/HomeController.class

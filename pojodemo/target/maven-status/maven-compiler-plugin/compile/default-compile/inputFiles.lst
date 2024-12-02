@@ -1,4 +1,5 @@
 /home/dickson/Desktop/spring-mvc-demo/pojodemo/src/main/java/com/pojo/config/WebAppInitializer.java
+/home/dickson/Desktop/spring-mvc-demo/pojodemo/src/main/java/com/pojo/interceptor/TestInterceptor.java
 /home/dickson/Desktop/spring-mvc-demo/pojodemo/src/main/java/com/pojo/config/WebConfig.java
 /home/dickson/Desktop/spring-mvc-demo/pojodemo/src/main/java/com/pojo/controller/HomeController.java
 /home/dickson/Desktop/spring-mvc-demo/pojodemo/src/main/java/com/pojo/config/AppConfig.java
